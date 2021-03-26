@@ -16,7 +16,7 @@ class YaUploader:
 
     def __init__(self, token_ya):
         self.token = token_ya
-        self.folder = input('Введите название новой папки: ')
+        self.folder = input('Введите название папки: ')
 
     def get_headers(self):
         return {
